@@ -1,6 +1,6 @@
 # Prerequisites
 ###
-##
+###
 - JDK 11
 - Maven 3 or later
 - MySQL 5.6 or later
@@ -21,6 +21,5 @@ MSQL DB Installation Steps for Linux ubuntu 14.04:
 Then look for the file :
 - /src/main/resources/accountsdb
 - accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < accountsdb.sql
-
+- > mysql -u <user_name> -p accounts < accountsdb.sh
 
