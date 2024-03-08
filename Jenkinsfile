@@ -1,5 +1,5 @@
 pipeline {
-    
+
     agent any
     tools {
         maven "MAVEN3"
@@ -18,9 +18,6 @@ pipeline {
         NEXUS_GRP_REPO = 'vpro-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
     }
-
-
-
 
     stages {
         stage('build'){
